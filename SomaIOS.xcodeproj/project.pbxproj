@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61ED20FE1D8D693700619A6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ED20FD1D8D693700619A6D /* AppDelegate.swift */; };
+		61ED21001D8D693700619A6D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ED20FF1D8D693700619A6D /* FirstViewController.swift */; };
+		61ED21021D8D693700619A6D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ED21011D8D693700619A6D /* SecondViewController.swift */; };
+		61ED21051D8D693700619A6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61ED21031D8D693700619A6D /* Main.storyboard */; };
+		61ED21071D8D693700619A6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61ED21061D8D693700619A6D /* Assets.xcassets */; };
+		61ED210A1D8D693700619A6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61ED21081D8D693700619A6D /* LaunchScreen.storyboard */; };
+		61ED21151D8D693700619A6D /* SomaIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ED21141D8D693700619A6D /* SomaIOSTests.swift */; };
+		61ED21201D8D693700619A6D /* SomaIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ED211F1D8D693700619A6D /* SomaIOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61ED21111D8D693700619A6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61ED20F21D8D693700619A6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61ED20F91D8D693700619A6D;
+			remoteInfo = SomaIOS;
+		};
+		61ED211C1D8D693700619A6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61ED20F21D8D693700619A6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61ED20F91D8D693700619A6D;
+			remoteInfo = SomaIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61ED20FA1D8D693700619A6D /* SomaIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SomaIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61ED20FD1D8D693700619A6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61ED20FF1D8D693700619A6D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		61ED21011D8D693700619A6D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		61ED21041D8D693700619A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61ED21061D8D693700619A6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61ED21091D8D693700619A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61ED210B1D8D693700619A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61ED21101D8D693700619A6D /* SomaIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SomaIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61ED21141D8D693700619A6D /* SomaIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomaIOSTests.swift; sourceTree = "<group>"; };
+		61ED21161D8D693700619A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61ED211B1D8D693700619A6D /* SomaIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SomaIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61ED211F1D8D693700619A6D /* SomaIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomaIOSUITests.swift; sourceTree = "<group>"; };
+		61ED21211D8D693700619A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61ED20F71D8D693700619A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61ED210D1D8D693700619A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61ED21181D8D693700619A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61ED20F11D8D693700619A6D = {
+			isa = PBXGroup;
+			children = (
+				61ED20FC1D8D693700619A6D /* SomaIOS */,
+				61ED21131D8D693700619A6D /* SomaIOSTests */,
+				61ED211E1D8D693700619A6D /* SomaIOSUITests */,
+				61ED20FB1D8D693700619A6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61ED20FB1D8D693700619A6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61ED20FA1D8D693700619A6D /* SomaIOS.app */,
+				61ED21101D8D693700619A6D /* SomaIOSTests.xctest */,
+				61ED211B1D8D693700619A6D /* SomaIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61ED20FC1D8D693700619A6D /* SomaIOS */ = {
+			isa = PBXGroup;
+			children = (
+				61ED20FD1D8D693700619A6D /* AppDelegate.swift */,
+				61ED20FF1D8D693700619A6D /* FirstViewController.swift */,
+				61ED21011D8D693700619A6D /* SecondViewController.swift */,
+				61ED21031D8D693700619A6D /* Main.storyboard */,
+				61ED21061D8D693700619A6D /* Assets.xcassets */,
+				61ED21081D8D693700619A6D /* LaunchScreen.storyboard */,
+				61ED210B1D8D693700619A6D /* Info.plist */,
+			);
+			path = SomaIOS;
+			sourceTree = "<group>";
+		};
+		61ED21131D8D693700619A6D /* SomaIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				61ED21141D8D693700619A6D /* SomaIOSTests.swift */,
+				61ED21161D8D693700619A6D /* Info.plist */,
+			);
+			path = SomaIOSTests;
+			sourceTree = "<group>";
+		};
+		61ED211E1D8D693700619A6D /* SomaIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61ED211F1D8D693700619A6D /* SomaIOSUITests.swift */,
+				61ED21211D8D693700619A6D /* Info.plist */,
+			);
+			path = SomaIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61ED20F91D8D693700619A6D /* SomaIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61ED21241D8D693700619A6D /* Build configuration list for PBXNativeTarget "SomaIOS" */;
+			buildPhases = (
+				61ED20F61D8D693700619A6D /* Sources */,
+				61ED20F71D8D693700619A6D /* Frameworks */,
+				61ED20F81D8D693700619A6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SomaIOS;
+			productName = SomaIOS;
+			productReference = 61ED20FA1D8D693700619A6D /* SomaIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61ED210F1D8D693700619A6D /* SomaIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61ED21271D8D693700619A6D /* Build configuration list for PBXNativeTarget "SomaIOSTests" */;
+			buildPhases = (
+				61ED210C1D8D693700619A6D /* Sources */,
+				61ED210D1D8D693700619A6D /* Frameworks */,
+				61ED210E1D8D693700619A6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61ED21121D8D693700619A6D /* PBXTargetDependency */,
+			);
+			name = SomaIOSTests;
+			productName = SomaIOSTests;
+			productReference = 61ED21101D8D693700619A6D /* SomaIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61ED211A1D8D693700619A6D /* SomaIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61ED212A1D8D693700619A6D /* Build configuration list for PBXNativeTarget "SomaIOSUITests" */;
+			buildPhases = (
+				61ED21171D8D693700619A6D /* Sources */,
+				61ED21181D8D693700619A6D /* Frameworks */,
+				61ED21191D8D693700619A6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61ED211D1D8D693700619A6D /* PBXTargetDependency */,
+			);
+			name = SomaIOSUITests;
+			productName = SomaIOSUITests;
+			productReference = 61ED211B1D8D693700619A6D /* SomaIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61ED20F21D8D693700619A6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "ali ziwa";
+				TargetAttributes = {
+					61ED20F91D8D693700619A6D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					61ED210F1D8D693700619A6D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 61ED20F91D8D693700619A6D;
+					};
+					61ED211A1D8D693700619A6D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 61ED20F91D8D693700619A6D;
+					};
+				};
+			};
+			buildConfigurationList = 61ED20F51D8D693700619A6D /* Build configuration list for PBXProject "SomaIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61ED20F11D8D693700619A6D;
+			productRefGroup = 61ED20FB1D8D693700619A6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61ED20F91D8D693700619A6D /* SomaIOS */,
+				61ED210F1D8D693700619A6D /* SomaIOSTests */,
+				61ED211A1D8D693700619A6D /* SomaIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61ED20F81D8D693700619A6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61ED210A1D8D693700619A6D /* LaunchScreen.storyboard in Resources */,
+				61ED21071D8D693700619A6D /* Assets.xcassets in Resources */,
+				61ED21051D8D693700619A6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61ED210E1D8D693700619A6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61ED21191D8D693700619A6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61ED20F61D8D693700619A6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61ED21021D8D693700619A6D /* SecondViewController.swift in Sources */,
+				61ED20FE1D8D693700619A6D /* AppDelegate.swift in Sources */,
+				61ED21001D8D693700619A6D /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61ED210C1D8D693700619A6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61ED21151D8D693700619A6D /* SomaIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61ED21171D8D693700619A6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61ED21201D8D693700619A6D /* SomaIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61ED21121D8D693700619A6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61ED20F91D8D693700619A6D /* SomaIOS */;
+			targetProxy = 61ED21111D8D693700619A6D /* PBXContainerItemProxy */;
+		};
+		61ED211D1D8D693700619A6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61ED20F91D8D693700619A6D /* SomaIOS */;
+			targetProxy = 61ED211C1D8D693700619A6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61ED21031D8D693700619A6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61ED21041D8D693700619A6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61ED21081D8D693700619A6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61ED21091D8D693700619A6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61ED21221D8D693700619A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61ED21231D8D693700619A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61ED21251D8D693700619A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SomaIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.somaios.soma.SomaIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		61ED21261D8D693700619A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SomaIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.somaios.soma.SomaIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		61ED21281D8D693700619A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SomaIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.somaios.soma.SomaIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SomaIOS.app/SomaIOS";
+			};
+			name = Debug;
+		};
+		61ED21291D8D693700619A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SomaIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.somaios.soma.SomaIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SomaIOS.app/SomaIOS";
+			};
+			name = Release;
+		};
+		61ED212B1D8D693700619A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SomaIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.somaios.soma.SomaIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SomaIOS;
+			};
+			name = Debug;
+		};
+		61ED212C1D8D693700619A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SomaIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.somaios.soma.SomaIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SomaIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61ED20F51D8D693700619A6D /* Build configuration list for PBXProject "SomaIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61ED21221D8D693700619A6D /* Debug */,
+				61ED21231D8D693700619A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61ED21241D8D693700619A6D /* Build configuration list for PBXNativeTarget "SomaIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61ED21251D8D693700619A6D /* Debug */,
+				61ED21261D8D693700619A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61ED21271D8D693700619A6D /* Build configuration list for PBXNativeTarget "SomaIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61ED21281D8D693700619A6D /* Debug */,
+				61ED21291D8D693700619A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61ED212A1D8D693700619A6D /* Build configuration list for PBXNativeTarget "SomaIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61ED212B1D8D693700619A6D /* Debug */,
+				61ED212C1D8D693700619A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61ED20F21D8D693700619A6D /* Project object */;
+}
